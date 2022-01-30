@@ -1,9 +1,3 @@
-body {
-	margin:0px;
-
-}
-html {
-}
 .colormatch{
 	background-color:#e8e0c9;
 }
@@ -21,9 +15,6 @@ html {
     width: 0;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
-h1 {
-	color: blue;
-}
 p {
 	font-family: 'Helvetica', 'Arial', sans-serif;
     color: rgb(255, 239, 92);
@@ -37,33 +28,13 @@ video {
 	width: 100%;
 	position: relative; 
 	top: -70px;
-}
-table{
-	margin-left: 25px;
-	margin-right: auto;
-}
-th{
-	left:25%;
-	font-size: 76pt;
-}
-
 .font{
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-size:16pt;
 }
-.font2{
-	padding-top: 20px;
-	font-family: 'Helvetica', 'Arial', sans-serif;
-    color: rgb(255, 239, 92);
-    font-size: 20pt;
-}	
 .black{
 	background-color:black;
 	position:relative;
-}
-.vertical {
-	position: absolute;
-	left: 10%;
 }
 .backgroundtxt {
   background-color: #171f36;
@@ -76,27 +47,13 @@ th{
   margin-right: auto;
   width: 50%;
 }
-.font2.backgroundtxt{}
-.center.font{}
 .softpad{
-		padding-left: 500px;
-		padding-right: 500px;
-}
-.tanbase{
-	background-color: rgba(255,133,82,0.5);
-)
-	width: 80%;
-	padding-right: 10px;
-}
-.top {
-	border-top:solid 20px rgb(255,255,255);
+padding-left: 500px;
+padding-right: 500px;
 }
 .column {
   float: left;
   width: 25%;
-}
-.stayinplaceasshole{
-	position: absolute;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -146,24 +103,6 @@ text-decoration:none;
 a.button2{
 display:block;
 margin:0.4em auto;
-}
-.hello{
-	background-image:url("visuals/hi.gif");
-	width: auto;
-	height: auto;
-}
-.static {
-  position:absolute;
-  background: white;
-}
-
-.active:hover {
-  opacity:0;
-}
-
-
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
 
 #navlinks{
     font-size:1.5em;
